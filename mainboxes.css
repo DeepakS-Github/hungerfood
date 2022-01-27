@@ -1,0 +1,195 @@
+.content{
+    margin-top: 20vh;
+    /* background-color: rgb(218, 218, 218); */
+    width: 100%;
+    height: 425px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+.box1{
+    width: 25vw;
+    height: 425px;
+    background-color: rgba(218, 218, 218, 0.411);
+    display: flex;
+    
+    border: 2px solid white;
+    border-radius: 35px;
+    
+    margin-left: 2vw;
+    flex-direction: column;
+    background-color: rgb(65, 65, 65);
+
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+.box1image{
+   
+    width: 25vw;
+    height: 17vw;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    
+    
+    
+    
+}
+.foodlist{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.box1txt{
+    color: rgb(185, 185, 185);
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box1list1{
+    color: white;
+    width: 8vw;
+    list-style: none;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box1list2{
+    color: white;
+    width: 8vw;
+    list-style: none;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.box1list3{
+    color: white;
+    list-style: none;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.foodheading{
+    text-decoration: underline overline;
+    color: rgb(185, 185, 185);
+    
+}
+
+.box2{
+    width: 33vw;
+    height: 425px;
+    
+    display: flex;
+    
+    background-color: #fff570;
+    border: 2px solid white;
+    border-radius: 55px;
+    margin-left: 5vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* background: url(images/pancakes-2291908_1920.jpg); */
+    background-size: 100% 100%;
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px rgb(169, 177, 58);
+}
+
+.order{
+    align-self: center;
+    color: rgb(91, 131, 32);
+    font-family: 'Ubuntu', sans-serif;
+    border: 5px solid  rgb(119, 0, 255);
+    padding: 2px 25px;
+    border-radius: 35px;
+    font-size: 6vh;
+    margin-bottom: 15vh;
+    cursor: pointer;
+    
+}
+.order:hover{
+
+    transition-duration: 0.4s;
+    background-color: rgba(75, 211, 41, 0.452);
+    color: white;
+}
+
+.message{
+    font-family: 'Pushster', cursive;
+    color:  hsl(12, 100%, 50%);
+    margin: 10vw 2vw 10px 2vw;
+    align-self: center;
+    
+    font-size: 8vh;
+    text-align: center;
+    
+}
+
+.box3{
+    width: 25vw;
+    height: 425px;
+    background-color: white;
+    display: flex;
+    background-image: url(images/vegetables.jpg);
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 35px;
+    margin-left: 5vw;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(100, 100, 100);
+    box-shadow: 5px 5px 5px gray;
+}
+
+.box3msg{
+    color: rgb(0, 255, 128);
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+    border: 5px solid rgb(0, 255, 221);
+    border-radius: 45px;
+    padding: 0.1vh 2vw;
+    cursor: pointer;
+}
+
+.box3msg:hover{
+    transition-duration: 0.2s;
+    color: white;
+    background-color: rgba(147, 255, 201, 0.3);
+}
+.box3msg1{
+    color: rgb(255, 153, 0);
+    align-self: center;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+    
+}
+
+.time{
+    color: white;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;    
+    font-size: 4vh;
+    text-decoration: underline wavy ;
+    
+}
+
+.mainline{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(184, 154, 144);
+}
+
+.ml{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(149, 206, 141);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
